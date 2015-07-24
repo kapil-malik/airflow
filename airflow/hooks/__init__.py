@@ -22,6 +22,7 @@ _hooks = {
     'druid_hook': ['DruidHook'],
     'dbapi_hook': ['DbApiHook'],
     'jdbc_hook': ['JdbcHook'],
+    'mssql_hook': ['MsSqlHook'],
 }
 
 _import_module_attrs(globals(), _hooks)
