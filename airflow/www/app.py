@@ -1607,6 +1607,7 @@ class ConnectionModelView(wwwutils.SuperUserMixin, AirflowModelView):
             ('s3', 'S3',),
             ('samba', 'Samba',),
             ('sqlite', 'Sqlite',),
+            ('mssql', 'Microsoft SQL Server'),
         ]
     }
 mv = ConnectionModelView(
